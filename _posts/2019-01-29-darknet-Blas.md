@@ -53,7 +53,8 @@ COMMON+= -I/opt/OpenBLAS/include/
 CFLAGS+= -DOPENBLAS  
 LDFLAGS+= -L/opt/OpenBLAS/lib -lopenblas -lpthread -lgfortran  
 endif  
-3) refine gems.c  
+
+>3) refine gems.c  
 #include "cblas.h"  
 
 >void gemm(int TA, int TB, int M, int N, int K, float ALPHA,  
