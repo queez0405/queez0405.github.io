@@ -1,5 +1,3 @@
-
-
 ---
 layout: post
 title:  "OpenBlas를 이용한 Darknet yolo 가속방법"
