@@ -2,7 +2,7 @@
 layout: post
 title:  "OpenBlas를 이용한 Darknet yolo 가속방법"
 date:   2019-01-29
-excerpt: "이미지 처리 딥러닝 오픈소스 Darknet을 OpenBlas를 이용하여 가속"
+excerpt: "이미지 처리 딥러닝 오픈소스 Darknet을 OpenBlas를 이용하여 최적화 하는 방법"
 tag:
 - Development
 - Deep Learning
@@ -52,7 +52,7 @@ CFLAGS+= -DOPENBLAS
 LDFLAGS+= -L/opt/OpenBLAS/lib -lopenblas -lpthread -lgfortran  
 endif  
 
->3).refine gems.c  
+>3). refine gems.c  
 #include "cblas.h"  
 
 >void gemm(int TA, int TB, int M, int N, int K, float ALPHA,  
@@ -74,13 +74,14 @@ OPENBLAS=1
 
 
 ifeq ($(OPENBLAS), 1)
-COMMON+= -I/opt/OpenBLAS/include/
+COMMON+= -I/(OpenBLAS가 있는 경로)/OpenBLAS
 CFLAGS+= -DOPENBLAS
-LDFLAGS+= -L/opt/OpenBLAS/lib -lopenblas -lpthread -lgfortran
+LDFLAGS+= -L/(OpenBLAS가 있는 경로)/OpenBLAS/lib -lopenblas -lpthread -lgfortran
 endif
 ~~~
-다음으로 darknet의 src 디렉토리로 이동 후 gemm.c 파일에 코드를 다음과 같이 추가하고 수정한다. (위의 gems.c는 답변자의 오타로 예상된다.)
+이 부분에서 위의 답변과는 다른 약간의 수정을 거쳐야 하는데 필자의 경우 -I/opt/OpenBLAS/include/ 에서 OpenBLAS의 경로와 폴더 내 include 파일이 없어 폴더를 삭제했고 LDFLAGS의 경로 또한 내가 OpenBLAS를 설치한 경로로 변경해주었다.
 
+다음으로 darknet의 src 디렉토리로 이동 후 gemm.c 파일에 코드를 다음과 같이 추가하고 수정한다. (위의 gems.c는 답변자의 오타로 예상된다.)
 ~~~c
 #include "cblas.h"  
 
