@@ -15,7 +15,7 @@ comments: true
 
 ## 실험 세팅
 
-실험은 intel i7-6700에 ubuntu 18.04LTS, openCV 3.4.2, Darknet yolo v3, OpenBlas 0.2.20 을 사용했다. openCV설치는 [이 블로그](https://jsh93.tistory.com/53)를 통해 진행했으며 darknet은 [공식 홈페이지](https://www.darknet.net)의 installation. 부분을 참고했다.
+실험은 intel i7-6700에 ubuntu 18.04LTS, openCV 3.4.2, Darknet yolo v3, OpenBlas 0.2.20 을 사용했다. openCV설치는 [이 블로그](https://jsh93.tistory.com/53)를 통해 진행했으며 darknet은 [공식 홈페이지](https://pjreddie.com/darknet/)의 installation. 부분을 참고했다.
 
 참고사항으로 yolo V3를 사용하려면 openCV 3.4.2버전 이상을 필요로 한다. (필자는 3.x.x 번대 중 가장 최신 버전인 3.4.3 설치를 시도해보았으나 실패하고 3.4.2를 설치하였다.)
 
