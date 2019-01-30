@@ -102,7 +102,7 @@ gemm_cpu( TA, TB, M, N, K, ALPHA,A,lda, B, ldb,BETA,C,ldc);
 이후 darknet폴더에서 make clean과 make를 진행하면 필자의 경우 다음과 같이 5배 이상 빨라진 것을 확인할 수 있었다.
 
 ![Blas미적용](https://github.com/queez0405/queez0405.github.io/blob/master/assets/img/darknetBlas/darknet.JPG?raw=true)
-<center>##### OpenBLAS 미적용 작동시간</center>  
+<center><i>OpenBLAS 미적용 작동시간</i></center>  
 
 ![Blas적용](https://github.com/queez0405/queez0405.github.io/blob/master/assets/img/darknetBlas/darknetBlas.JPG?raw=true)
-<center>##### OpenBLAS 적용시 작동시간</center>
+<center><i>OpenBLAS 적용시 작동시간</i></center>
