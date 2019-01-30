@@ -81,7 +81,7 @@ endif
 ~~~
 이 부분에서 위의 답변과는 다른 약간의 수정을 거쳐야 하는데 필자의 경우 -I/opt/OpenBLAS/include/ 에서 OpenBLAS의 경로와 폴더 내 include 파일이 없어 폴더를 삭제했고 LDFLAGS의 경로 또한 내가 OpenBLAS를 설치한 경로로 변경해주었다.
 
-다음으로 darknet의 src 디렉토리로 이동 후 gemm.c 파일에 코드를 다음과 같이 추가하고 수정한다. (위의 gems.c는 답변자의 오타로 예상된다.)
+다음으로 darknet의 src 디렉토리로 이동 후 gemm.c 파일에 코드를 다음과 같이 추가하고 수정한다. (위의 gems.c는 답변자의 오타로 예상된다.)  
 ~~~c
 #include "cblas.h"  
 
@@ -102,6 +102,7 @@ gemm_cpu( TA, TB, M, N, K, ALPHA,A,lda, B, ldb,BETA,C,ldc);
 이후 darknet폴더에서 make clean과 make를 진행하면 필자의 경우 다음과 같이 5배 이상 빨라진 것을 확인할 수 있었다.
 
 ![Blas미적용](https://github.com/queez0405/queez0405.github.io/blob/master/assets/img/darknetBlas/darknet.JPG?raw=true)
-##### OpenBLAS 미적용 작동시간
+<center>##### OpenBLAS 미적용 작동시간</center>  
+
 ![Blas적용](https://github.com/queez0405/queez0405.github.io/blob/master/assets/img/darknetBlas/darknetBlas.JPG?raw=true)
-##### OpenBLAS 적용시 작동시간
+<center>##### OpenBLAS 적용시 작동시간</center>
