@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "라섹 수술 후기 - 2"
+title:  "고도근시 라섹 수술 후기 - 2"
 date:   2018-11-29
 excerpt: "20일차 라섹 수술 후기 - 2"
 tag:
