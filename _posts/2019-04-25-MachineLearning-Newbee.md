@@ -65,4 +65,8 @@ comments: true
 
 최근 CNN은 autoML구조를 통해 CNN의 하이퍼파라미터를 머신러닝을 통해 결정하며 GAN에 그 구조를 적용한 듯 한 autoGAN이라는 논문도 존재한다.(물론 아직 읽지 않았다) 여기서부터는 한글로 정리된 자료는 없다고 보는 것이 옳으며 ICPR이나 JRML과 같은 저명한 저널에 실린 논문을 읽는 것이 연구 동향을 따라갈 수 있는 길이다.
 
-부디 머신러닝 입문자에게 조금이나마 도움이 되었으면 한다. 
+부디 머신러닝 입문자에게 조금이나마 도움이 되었으면 한다. 아래 내가 공부하면서 많은 도움을 얻었던 몇 가지 링크를 첨부한다.
+
+KL-Divergent 설명:https://brunch.co.kr/@chris-song/69
+텐서플로우로 50줄만에 GAN 구현하기:https://taeoh-kim.github.io/blog/tensorflow%EB%A1%9C-50%EC%A4%84%EC%A7%9C%EB%A6%AC-original-gan-code-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/
+구글에서 제작한 머신러닝 용어집:https://developers.google.com/machine-learning/glossary/?hl=ko
