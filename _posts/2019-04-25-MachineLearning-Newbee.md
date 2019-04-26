@@ -51,7 +51,7 @@ comments: true
 2016년 이후 우리나라에 머신러닝 열풍을 불러일으키게 한 한 가지 단어라면 단연 '알파고'일 것이다. 이 알파고는 강화학습을 기반으로 한 구글에 인수된 DeepMind 사에서 개발한 바둑 프로그램으로 이 강화학습한 제대로 안다면 당신도 알파고를 만들 수 있다!
 
 여기서 우리는 상술한 김성훈 교수님께 다시 한 번 감사를 표해야 한다. 모두의 딥러닝 뿐 아니라 [모두의 RL](https://www.youtube.com/watch?v=dZ4vw6v3LcA&list=PLlMkM4tgfjnKsCWav-Z2F-MMFRx-2gMGG) 또한 있으니까.
-또한 알파고를 만든 딥마인드에 직접 재직중인 David Silver 박사가 [직접 강의한 영상](https://www.youtube.com/watch?v=2pWv7GOvuf0)도 있으니 영어 실력에 자신이 있다면 이쪽도 굉장히 좋다.
+또한 알파고를 만든 딥마인드에 재직중인 David Silver 박사가 [직접 강의한 영상](https://www.youtube.com/watch?v=2pWv7GOvuf0)도 있으니 영어 실력에 자신이 있다면 이쪽도 굉장히 좋다.
 
 그러나 성격 급한 필자는 또다시 강의를 보지 못하고 [다음 깃북](https://dnddnjs.gitbooks.io/rl/content/index.html)을 통해 강화학습을 공부하기 이른다. 해당 링크는 위의 David Silver 박사의 강의를 한글로 옮긴 강의로 중반부까지는 조금 읽을 만 하다가도 후반부는... 직접 읽어 보시길 바란다.
 
@@ -68,6 +68,7 @@ comments: true
 부디 머신러닝 입문자에게 조금이나마 도움이 되었으면 한다. 아래 내가 공부하면서 많은 도움을 얻었던 몇 가지 링크를 첨부한다.
 
 [Cross-Entropy에 관한 간단한 설명](http://blog.naver.com/PostView.nhn?blogId=gyrbsdl18&logNo=221013188633&redirect=Dlog&widgetTypeCall=true)  
+[조대협의 블로그](https://bcho.tistory.com/)  
 [수학적 물리학적 그리고 기계학습에서 텐서란 무엇인가](https://blog.naver.com/rlaghlfh/220914107525)  
 [KL-Divergence 설명](https://brunch.co.kr/@chris-song/69)  
 [텐서플로우로 50줄만에 GAN 구현하기](https://taeoh-kim.github.io/blog/tensorflow%EB%A1%9C-50%EC%A4%84%EC%A7%9C%EB%A6%AC-original-gan-code-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/)  
