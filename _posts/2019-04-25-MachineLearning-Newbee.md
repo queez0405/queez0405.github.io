@@ -69,6 +69,7 @@ comments: true
 
 [Cross-Entropy에 관한 간단한 설명](http://blog.naver.com/PostView.nhn?blogId=gyrbsdl18&logNo=221013188633&redirect=Dlog&widgetTypeCall=true)  
 [조대협의 블로그](https://bcho.tistory.com/)  
+[동신한의 조재성](https://nittaku.tistory.com/category/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%26%20%EB%94%A5%EB%9F%AC%EB%8B%9D/%EB%94%A5%EB%9F%AC%EB%8B%9D%20-%20Image%20classification)  
 [수학적 물리학적 그리고 기계학습에서 텐서란 무엇인가](https://blog.naver.com/rlaghlfh/220914107525)  
 [KL-Divergence 설명](https://brunch.co.kr/@chris-song/69)  
 [텐서플로우로 50줄만에 GAN 구현하기](https://taeoh-kim.github.io/blog/tensorflow%EB%A1%9C-50%EC%A4%84%EC%A7%9C%EB%A6%AC-original-gan-code-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/)  
