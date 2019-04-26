@@ -35,7 +35,7 @@ comments: true
 
 그래서 찾은 것이 불완전하지만 조금이나마 [변역된 자료](https://aikorea.org/cs231n/)이다. 한국어로 된 자료는 우리의 학습 속도를 비약적으로 높여 주는 것은 당연한 사실이다.
 
-알다시피 이런 류의 공부는 영어로 하는 것이 가장 좋지만 귀에 들리는 짧은 시간의 수많은 영어는 우리를 강의에 집중하기 힘들게 하고 효율이 나기 힘들다. 그래서 찾은 것이 홍콩과기대 김성훈 교수님의 [모두의 딥러닝](https://www.youtube.com/watch?v=BS6O0zOGX4E&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm)이다. 이 강의를 듣고 잘 이해가 가지 않는다면 이 강의 자체를 정리해 놓은 블로그도 구글에 검색하면 많으니 참고하기도 쉽다.
+알다시피 이런 류의 공부는 영어로 하는 것이 가장 좋지만 귀에 들리는 짧은 시간의 수많은 영어는 우리를 강의에 집중하기 힘들게 하고 효율이 나기 힘들다. 그래서 찾은 것이 홍콩과기대 김성훈 교수님의 [모두의 딥러닝](https://www.youtube.com/watch?v=BS6O0zOGX4E&list=PLlMkM4tgfjnLSOjrEJN31gZATbcj_MpUm)이다. 이 강의를 듣고 잘 이해가 가지 않는다면 이 강의 자체를 정리해 놓은 블로그도 구글에 검색하면 많으니 참고하기도 쉽다.(최근에 알게 되어 모두의 [딥러닝 시즌 2](https://www.youtube.com/watch?v=7eldOrjQVi0&list=PLQ28Nx3M4Jrguyuwg4xe9d9t2XE639e5C)가 있다는 것을 첨언한다.)
 
 하루에 하나씩 강의를 보고 있는데 어제의 강의 내용 일부분이 기억이 나지 않는다면 어제 강의를 다시 보는 것도 매우 좋다. 그러나 우리는 불행히도 좀 더 빨리 다음 내용을 보고 싶은 마음이 크다. 그렇다면 다음 [데이터 분석하는 문과생](https://sacko.tistory.com/category/Data%20Science) 블로그는 지나간 기억을 상기시키는데 매우 좋다.
 
