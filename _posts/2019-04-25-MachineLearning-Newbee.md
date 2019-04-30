@@ -75,4 +75,5 @@ comments: true
 [수학적 물리학적 그리고 기계학습에서 텐서란 무엇인가](https://blog.naver.com/rlaghlfh/220914107525)  
 [KL-Divergence 설명](https://brunch.co.kr/@chris-song/69)  
 [텐서플로우로 50줄만에 GAN 구현하기](https://taeoh-kim.github.io/blog/tensorflow%EB%A1%9C-50%EC%A4%84%EC%A7%9C%EB%A6%AC-original-gan-code-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/)  
+[EM 알고리즘 for VAE](http://sanghyukchun.github.io/70/)  
 [구글에서 제작한 머신러닝 용어집](https://developers.google.com/machine-learning/glossary/?hl=ko)  
