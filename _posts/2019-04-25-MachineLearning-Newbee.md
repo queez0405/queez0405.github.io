@@ -77,4 +77,5 @@ comments: true
 [텐서플로우로 50줄만에 GAN 구현하기](https://taeoh-kim.github.io/blog/tensorflow%EB%A1%9C-50%EC%A4%84%EC%A7%9C%EB%A6%AC-original-gan-code-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/)  
 [EM 알고리즘 for VAE](http://sanghyukchun.github.io/70/)  
 [구글에서 제작한 머신러닝 용어집](https://developers.google.com/machine-learning/glossary/?hl=ko)  
-[강화학습 텐서플로우 튜토리얼 코드](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow)
+[강화학습 텐서플로우 튜토리얼 코드](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow)  
+[한국어 파이토치 튜토리얼](https://github.com/GunhoChoi/PyTorch-FastCampus)  
