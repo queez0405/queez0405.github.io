@@ -12,6 +12,7 @@ tag:
 - review
 
 comments: true
+published: false
 ---
 
 ### 집으로 가는 여정
