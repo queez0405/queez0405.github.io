@@ -79,3 +79,4 @@ comments: true
 [구글에서 제작한 머신러닝 용어집](https://developers.google.com/machine-learning/glossary/?hl=ko)  
 [강화학습 텐서플로우 튜토리얼 코드](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow)  
 [한국어 파이토치 튜토리얼](https://github.com/GunhoChoi/PyTorch-FastCampus)  
+[NPG가 비교적 쉽게 설명되어 있는 슬라이드 쉐어](https://www.slideshare.net/SooyoungMoon3/natural-policy-gradient)  
