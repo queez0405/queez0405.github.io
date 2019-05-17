@@ -87,3 +87,4 @@ comments: true
 [강화학습 텐서플로우 튜토리얼 코드](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow)  
 [정원석님의 블로그](https://wonseokjung.github.io/)  
 [텐서플로우를 사용하지 않고 PG로 pong 강화학습 구현](https://tensorflow.blog/2016/07/13/reinforce-pong-at-gym/)  
+[강화학습 라이브러리 비교(영어)](https://medium.com/data-from-the-trenches/choosing-a-deep-reinforcement-learning-library-890fb0307092?fbclid=IwAR1AODRQLMjZIFRIdxIput3TkeYjwGsiAZpr4_3ov1H4Xi2YWO2gIzgLh2E)  
