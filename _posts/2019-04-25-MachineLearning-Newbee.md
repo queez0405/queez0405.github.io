@@ -55,6 +55,8 @@ comments: true
 
 그러나 성격 급한 필자는 또다시 강의를 보지 못하고 [다음 깃북](https://dnddnjs.gitbooks.io/rl/content/index.html)을 통해 강화학습을 공부하기 이른다. 해당 링크는 위의 David Silver 박사의 강의를 한글로 옮긴 강의로 중반부까지는 조금 읽을 만 하다가도 후반부는... 직접 읽어 보시길 바란다.
 
+이후에는 [RL Korea 블로그](https://reinforcement-learning-kr.github.io/)를 통해 DQN이 아닌 PG(Policy gradient)의 갈래인 DDPG, TRPO, PPO등의 강화학습 기법을 논문을 보면 대충 강화학습의 흐름을 이해할 수 있다.
+
 ### Generative Model(GAN, VAE, autoencoder)
 이 항목에 있는 딥러닝 모델들은 classification 이나 detect의 범주에서 벗어나 새로운 이미지를 생성해낸다. 기술적 뉴스에 조금이라도 관심이 있다면 [인공지능이 고흐 스타일로 그림을 재해석](http://www.asiae.co.kr/news/view.htm?idxno=2017041911030791522)한다거나 [실제로는 존재하지 않는 사람의 얼굴을 생성](https://www.sciencetimes.co.kr/?news=ai%EB%A1%9C-%EC%A7%84%EC%A7%9C-%EA%B0%99%EC%9D%80-%EA%B0%80%EC%A7%9C-%EB%A7%8C%EB%93%A4%EA%B8%B0-%EA%B2%BD%EC%9F%81)한다던가 하는 뉴스를 본 적이 있을텐데 이러한 작업을 하는 모델을 Generative Model이라고 한다. 그리고 이런 GAN 구조에 대해 한국어로 가장 잘 설명된 블로그는 의심할 여지 없이 [유재준님의 블로그](http://jaejunyoo.blogspot.com/search/label/GAN)이다.
 
@@ -84,3 +86,4 @@ comments: true
 [NPG가 비교적 쉽게 설명되어 있는 슬라이드 쉐어](https://www.slideshare.net/SooyoungMoon3/natural-policy-gradient)  
 [강화학습 텐서플로우 튜토리얼 코드](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow)  
 [정원석님의 블로그](https://wonseokjung.github.io/)  
+[텐서플로우를 사용하지 않고 PG로 pong 강화학습 구현](https://tensorflow.blog/2016/07/13/reinforce-pong-at-gym/)  
