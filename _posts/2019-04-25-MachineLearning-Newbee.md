@@ -69,14 +69,18 @@ comments: true
 
 부디 머신러닝 입문자에게 조금이나마 도움이 되었으면 한다. 아래 내가 공부하면서 많은 도움을 얻었던 몇 가지 링크를 첨부한다.
 
+#### 용어 및 수학적 이론
 [Cross-Entropy에 관한 간단한 설명](http://blog.naver.com/PostView.nhn?blogId=gyrbsdl18&logNo=221013188633&redirect=Dlog&widgetTypeCall=true)  
-[조대협의 블로그](https://bcho.tistory.com/)  
 [동신한의 조재성](https://nittaku.tistory.com/category/%EB%A8%B8%EC%8B%A0%EB%9F%AC%EB%8B%9D%20%26%20%EB%94%A5%EB%9F%AC%EB%8B%9D/%EB%94%A5%EB%9F%AC%EB%8B%9D%20-%20Image%20classification)  
 [수학적 물리학적 그리고 기계학습에서 텐서란 무엇인가](https://blog.naver.com/rlaghlfh/220914107525)  
 [KL-Divergence 설명](https://brunch.co.kr/@chris-song/69)  
-[텐서플로우로 50줄만에 GAN 구현하기](https://taeoh-kim.github.io/blog/tensorflow%EB%A1%9C-50%EC%A4%84%EC%A7%9C%EB%A6%AC-original-gan-code-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/)  
 [EM 알고리즘 for VAE](http://sanghyukchun.github.io/70/)  
 [구글에서 제작한 머신러닝 용어집](https://developers.google.com/machine-learning/glossary/?hl=ko)  
-[강화학습 텐서플로우 튜토리얼 코드](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow)  
 [한국어 파이토치 튜토리얼](https://github.com/GunhoChoi/PyTorch-FastCampus)  
+#### GAN 설명 및 코드
+[텐서플로우로 50줄만에 GAN 구현하기](https://taeoh-kim.github.io/blog/tensorflow%EB%A1%9C-50%EC%A4%84%EC%A7%9C%EB%A6%AC-original-gan-code-%EA%B5%AC%ED%98%84%ED%95%98%EA%B8%B0/)  
+[조대협의 블로그](https://bcho.tistory.com/)  
+#### 강화학습 설명 및 코드
 [NPG가 비교적 쉽게 설명되어 있는 슬라이드 쉐어](https://www.slideshare.net/SooyoungMoon3/natural-policy-gradient)  
+[강화학습 텐서플로우 튜토리얼 코드](https://github.com/MorvanZhou/Reinforcement-learning-with-tensorflow)  
+[정원석님의 블로그](https://wonseokjung.github.io/)  
