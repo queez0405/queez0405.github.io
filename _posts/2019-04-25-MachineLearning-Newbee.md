@@ -11,8 +11,11 @@ tag:
 - Reinforcement Learning
 - GAN
 
+use_math: true
 comments: true
 ---
+
+\( a^2 + b^2 = c^2 \)
 
 ### 본격적인 이야기에 앞서
 
