@@ -31,7 +31,7 @@ comments: true
 
 어떻게 word2vec을 LoL에 적용하는지 의문이 들 것이다. 내 생각은 이렇다. word2vec은 주변 단어와의 관계를 활용하여 자신의 벡터를 학습한다. 롤의 포지션을 봤을 때 탑, 정글, 미드, 바텀, 서포터가 있고 탑 챔프 하나의 벡터를 학습하기 위해서 나머지 포지션의 챔프와의 관계를 고려하여 학습하도록 한다면 각각의 챔피언의 특징이 벡터 안으로 들어갈 수 있을 것이다. 예를 들어 바텀 듀오를 봤을 때 카이사는 룰루, 소라카 등 유틸챔프 보다는 노틸러스, 레오나 등의 cc기 있는 챔피언과의 궁합이 좋다고 한다. 따라서 해당 방법으로 챔프벡터를 학습시켰을 때(특정 조합에서 같이 더 자주 쓰이므로)  룰루, 소라카의 챔피언 벡터의 유사도는 높게 나타날 것이고 룰루와 노틸러스, 레오나 등의 유사도는 낮게 나타날 것이다. 
 
-word2vec은 NLP에서 단어의 전후관계를 파악하여 각각의 단어를 벡터로 바꾸어준다. [word2vec 알고리즘에 대한 자세한 설명(https://dreamgonfly.github.io/machine/learning,/natural/language/processing/2017/08/16/word2vec_explained.html)은 다음 블로그를 참조했다. 수학적 설명 이전까지는 쉽게 이해할 수 있는 글이라 직관적으로 이해할 수 있다. CBOW와 Skip-Gram 중 일반적으로 성능이 더 좋다고 알려져 있는 Skip-Gram을 사용하여 champ2vec을 구현할 것이다.
+word2vec은 NLP에서 단어의 전후관계를 파악하여 각각의 단어를 벡터로 바꾸어준다. [word2vec 알고리즘에 대한 자세한 설명](https://dreamgonfly.github.io/machine/learning,/natural/language/processing/2017/08/16/word2vec_explained.html)은 다음 블로그를 참조했다. 수학적 설명 이전까지는 쉽게 이해할 수 있는 글이라 직관적으로 이해할 수 있다. CBOW와 Skip-Gram 중 일반적으로 성능이 더 좋다고 알려져 있는 Skip-Gram을 사용하여 champ2vec을 구현할 것이다.
 
 ### gensim을 사용하여 구현하기
 
