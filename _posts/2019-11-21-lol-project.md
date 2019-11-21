@@ -27,7 +27,7 @@ comments: true
 ### 첫 번째 단계 champ2vec
 딥러닝을 어떤 모델에 넣든 넣을 방법이 필요하다. 예를 들어 위의 두 번째 블로그에 언급된 one-hot 벡터와 같은 방법이다. 그러나 나는 각각의 챔피언의 특성을 녹아낸 벡터를 모델에 삽입하는 것이 더 나은 결과를 만들어내지 않을까 생각했다. 따라서 내놓은 결론이 NLP의 word2vec 기법을 적용하여 champ2vec을 사용하기로 했다.
 
-<img src="http://mblogthumb3.phinf.naver.net/MjAxODEyMTlfMTcz/MDAxNTQ1MjA0MTk4NDQy.-lCTSpFhyK1yb6_e8FaFoZwZmMb_-rRZ04AnFmNijB4g.ID8x5cmkX8obTOxG8yoq39JRURXvKBPjbxY_z5M90bkg.JPEG.cine_play/707211_1532672215.jpg?type=w800">  
+<img src="http://mblogthumb3.phinf.naver.net/MjAxODEyMTlfMTcz/MDAxNTQ1MjA0MTk4NDQy.-lCTSpFhyK1yb6_e8FaFoZwZmMb_-rRZ04AnFmNijB4g.ID8x5cmkX8obTOxG8yoq39JRURXvKBPjbxY_z5M90bkg.JPEG.cine_play/707211_1532672215.jpg?type=w800" style="max-width: 50%; height: auto;">  
 
 어떻게 word2vec을 LoL에 적용하는지 의문이 들 것이다. 내 생각은 이렇다. word2vec은 주변 단어와의 관계를 활용하여 자신의 벡터를 학습한다. 롤의 포지션을 봤을 때 탑, 정글, 미드, 바텀, 서포터가 있고 탑 챔프 하나의 벡터를 학습하기 위해서 나머지 포지션의 챔프와의 관계를 고려하여 학습하도록 한다면 각각의 챔피언의 특징이 벡터 안으로 들어갈 수 있을 것이다. 예를 들어 바텀 듀오를 봤을 때 카이사는 룰루, 소라카 등 유틸챔프 보다는 노틸러스, 레오나 등의 cc기 있는 챔피언과의 궁합이 좋다고 한다. 따라서 해당 방법으로 챔프벡터를 학습시켰을 때(특정 조합에서 같이 더 자주 쓰이므로)  룰루, 소라카의 챔피언 벡터의 유사도는 높게 나타날 것이고 룰루와 노틸러스, 레오나 등의 유사도는 낮게 나타날 것이다. 
 
@@ -39,7 +39,7 @@ word2vec은 NLP에서 단어의 전후관계를 파악하여 각각의 단어를
 
 먼저 구미호를 모티브로만든 챔피언 아리의 챔피언 벡터의 일부를 보자.
 
-![아리 벡터](https://raw.githubusercontent.com/queez0405/queez0405.github.io/master/_posts/lol_project/Ahri_vector.png)  
+![아리 벡터](https://raw.githubusercontent.com/queez0405/queez0405.github.io/master/_posts/lol_project/Ahri_vector.png){: width="50%" height="50%"}  
 챔피언의 임베딩 벡터 크기는 256으로 진행하였다. 이 숫자들만 봐서는 제대로 학습이 되었는지 아리송하다. 그러면 서포터와 그랩의 상징하는 챔프인 블리츠크랭크와 유사한 챔피언 벡터 10개를 골라보았다.
 ![블리츠 유사도](https://raw.githubusercontent.com/queez0405/queez0405.github.io/master/_posts/lol_project/Blitzcrank_similar.png)  
 꽤나 고무적인 결과가 나왔다. 그랩형 서포터의 쌍두마차 쓰레쉬가 가장 벡터가 유사한 챔피언으로 나왔고 이외에도 라칸, 자이라, 브라움 등 서포터 포지션으로 주로 기용되는 챔피언들이 그 유사도가 높다. 그러나 이 모델이 완벽하다고 할 수 있을까? 우선 다른 그랩형 서포터인 노틸러스를 찾기가 힘들다(2018년 까지의 데이터이므로 파이크는 출시되기 전이다). 그러나 이전에 노틸러스는 서포터 보다는 탑에서 많이 사용되었으므로 그럴 수 있다.
