@@ -39,7 +39,7 @@ word2vec은 NLP에서 단어의 전후관계를 파악하여 각각의 단어를
 
 먼저 구미호를 모티브로만든 챔피언 아리의 챔피언 벡터의 일부를 보자.
 
-![아리 벡터](https://raw.githubusercontent.com/queez0405/queez0405.github.io/master/_posts/lol_project/Ahri_vector.png){: width="50%" height="50%"}  
+![아리 벡터](https://raw.githubusercontent.com/queez0405/queez0405.github.io/master/_posts/lol_project/Ahri_vector.png){:width="50%" height="50%"}  
 챔피언의 임베딩 벡터 크기는 256으로 진행하였다. 이 숫자들만 봐서는 제대로 학습이 되었는지 아리송하다. 그러면 서포터와 그랩의 상징하는 챔프인 블리츠크랭크와 유사한 챔피언 벡터 10개를 골라보았다.
 ![블리츠 유사도](https://raw.githubusercontent.com/queez0405/queez0405.github.io/master/_posts/lol_project/Blitzcrank_similar.png)  
 꽤나 고무적인 결과가 나왔다. 그랩형 서포터의 쌍두마차 쓰레쉬가 가장 벡터가 유사한 챔피언으로 나왔고 이외에도 라칸, 자이라, 브라움 등 서포터 포지션으로 주로 기용되는 챔피언들이 그 유사도가 높다. 그러나 이 모델이 완벽하다고 할 수 있을까? 우선 다른 그랩형 서포터인 노틸러스를 찾기가 힘들다(2018년 까지의 데이터이므로 파이크는 출시되기 전이다). 그러나 이전에 노틸러스는 서포터 보다는 탑에서 많이 사용되었으므로 그럴 수 있다.
