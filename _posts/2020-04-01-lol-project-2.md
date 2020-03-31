@@ -32,7 +32,7 @@ comments: true
 위 그림은 champ2vec으로 만들어진 128차원의 챔피언 벡터 145개를 t-sne로 차원을 줄인 결과다. 탑, 정글, 미드, 바텀, 서폿 모두 아주 이쁘게 모여 있다. 9.19 버전 중 멀티포지션이 가능한 사일러스나 하이머딩거 등은 그 사이 어딘가에 위치해 있고 미드 챔피언을 보면 AD 암살자라고 할 수 있는 탈론, 제드, 키아나 그리고 조금 애매하지만 야스오까지 아주 가까운 위치에 몰있다는 굉장히 재미있는 결과가 나왔다. 이걸 봤을 때 임베딩 자체는 꽤 잘 된 것 아닌가?
 
 ### 임베딩 해서 뭘 할 거야?
-임베딩을 한 기법이 뭔가? 원래 이름이 word2vec이니까 word를 임베딩했다. 그러면 word를 임베딩한 text classification task를 그대로 champ2vec에 적용하여 레드 팀과 블루 팀의 승패를 예측할 수 있을 것이라는 결론에 이르렀다. 그래서 사용하기로 한 방법이 [cnn task classification] (https://arxiv.org/pdf/1408.5882.pdf)과 rnn task classification이다. rnn 방법 중에서는 (reference github)[https://github.com/AnubhavGupta3377/Text-Classification-Models-Pytorch]에서 일반적으로 가장 성능이 좋은 bi-lstm을 사용했다.
+임베딩을 한 기법이 뭔가? 원래 이름이 word2vec이니까 word를 임베딩했다. 그러면 word를 임베딩한 text classification task를 그대로 champ2vec에 적용하여 레드 팀과 블루 팀의 승패를 예측할 수 있을 것이라는 결론에 이르렀다. 그래서 사용하기로 한 방법이 [cnn task classification](https://arxiv.org/pdf/1408.5882.pdf)과 rnn task classification이다. rnn 방법 중에서는 [reference github](https://github.com/AnubhavGupta3377/Text-Classification-Models-Pytorch)에서 일반적으로 가장 성능이 좋은 bi-lstm을 사용했다.
 
 ### 결과는 시궁창
 
