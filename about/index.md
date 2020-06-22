@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About the Dong Hee Kim
-<!--tags: [about, Jekyll, theme, moon]-->
+tags: []
 date: 2020-06-19
 comments: false
 ---
