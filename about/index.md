@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About the Dong Hee Kim
+title: About the Dong-Hee Kim
 tags: []
 date: 2020-06-19
 comments: false
