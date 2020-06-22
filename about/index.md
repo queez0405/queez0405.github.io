@@ -10,18 +10,12 @@ comments: false
 I am M.S. student at Hanyang University, where supervising by Ki-Seok Chung.
 
 ## Publications
+**Dong-Hee Kim**, Changwoo Lee and Ki-Seok Chung. "A Confidence-Calibrated MOBA Game Winner Predictor" *IEEE Conference on Games,* 2020.
 
-#### A Confidence-Calibrated MOBA Game WinnerPredictor
- Dong-Hee Kim, Changwoo Lee and Ki-Seok Chung
- IEEE Conference on Games, 2020
+**Dong-Hee Kim** and Ki-Seok Chung. "Improving Decection Performance of Out-of-Distribution with Mixup" *The Korean Institute of Communications and Information Sciences Winter Conference*, 2020.
 
-#### Improving Decection Performance of Out-of-Distribution withMixup
- Dong-Hee Kim and Ki-Seok Chung
- The Korean Institute of Communications and Information Sciences Winter Conference, 2020
+**Dong-Hee Kim**, Sung-Jin Lee and Ki-Seok Chung. "CNN Acceleration by Exploiting SIMD Parallelism" *The Korean Institute of Communications and Information Sciences Fall Conference*, 2018.
 
-#### CNN Acceleration by Exploiting SIMD Parallelism
- Dong-Hee Kim, Sung-Jin Lee and Ki-Seok Chung
- The Korean Institute of Communications and Information Sciences Fall Conference, 2018
 
 ## Education
 Sep. 2019 - : M.S. in Electronic and Computer Engineering, Hanyang University  
