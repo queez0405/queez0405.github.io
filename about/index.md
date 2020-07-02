@@ -7,10 +7,10 @@ comments: false
 ---
 
 ## Bio
-I am M.S. student at Hanyang University, supervising by Ki-Seok Chung.
+I am M.S. student at Hanyang University, and my adviser is Ki-Seok Chung.
 
 ## Publications
-**Dong-Hee Kim**, Changwoo Lee and Ki-Seok Chung. "A Confidence-Calibrated MOBA Game Winner Predictor" *IEEE Conference on Games,* 2020.
+**Dong-Hee Kim**, Changwoo Lee and Ki-Seok Chung. "A Confidence-Calibrated MOBA Game Winner Predictor" *IEEE Conference on Games,* 2020.[arxiv](https://arxiv.org/abs/2006.15521)
 
 **Dong-Hee Kim** and Ki-Seok Chung. "Improving Decection Performance of Out-of-Distribution with Mixup" *The Korean Institute of Communications and Information Sciences Winter Conference*, 2020.
 
