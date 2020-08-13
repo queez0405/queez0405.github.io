@@ -29,6 +29,7 @@ comments: true
 
 그러나 위의 Temperature Scaling과 같은 방법들은 이미지와 텍스트 도메인에서 실험한 결과이다. 이는 직관적으로 생각해봤을 때 승리팀을 정답 레이블로 한 LoL 데이터셋에 비해 훨씬 명확한 답을 가지고 있다.
 
+![confidence 분포](https://raw.githubusercontent.com/queez0405/queez0405.github.io/master/_posts/lol_project/rel_diag.PNG =500x)
 <center><img src="https://raw.githubusercontent.com/queez0405/queez0405.github.io/master/_posts/lol_project/ofsamples1.PNG" width="500"></center>
 
 위 그림은 이미지 데이터셋과 LoL 데이터셋의 Confidence 분포의 차이를 명확하게 보여준다. 이미지는 대부분의 test sample 들의 Confidence가 90% 이상이다. 반면 LoL 데이터셋은 Confidence가 고르게 분포되어 있다. 따라서 이를 고려하는 Calibration이 진행되어야 한다.
@@ -37,7 +38,7 @@ comments: true
 
 ### 실험 결과
 
-![confidence 분포](https://raw.githubusercontent.com/queez0405/queez0405.github.io/master/_posts/lol_project/rel_diag.PNG){: width="50%"}
+![Reliability Diagram](https://raw.githubusercontent.com/queez0405/queez0405.github.io/master/_posts/lol_project/rel_diag.PNG){: width="50%"}
 
 
 Calibration의 성능을 평가하는 Metric으로는 Expected Calibration Error(ECE), Maximum Calibration Error(MCE) 등이 있지만 가장 직관적으로 성능을 확인할 수 있는 그래프는 위의 Reliability Diagram 이다. 파란색 막대가 해당 범위에서의 Accuracy를 의미하고 주황색 막대가 Accuracy와 Confidence 평균의 차이를 의미한다. 당연히 주황색이 많이 보일수록 안 좋은 결과를 보이는 것이다. 이 그림을 통해 우리는 제안한 방법의 성능이 가장 좋다는 것을 확인할 수 있다.
