@@ -29,7 +29,7 @@ comments: true
 
 그러나 위의 Temperature Scaling과 같은 방법들은 이미지와 텍스트 도메인에서 실험한 결과이다. 이는 직관적으로 생각해봤을 때 승리팀을 정답 레이블로 한 LoL 데이터셋에 비해 훨씬 명확한 답을 가지고 있다.
 
-<center><img src="https://raw.githubusercontent.com/queez0405/queez0405.github.io/master/_posts/lol_project/ofsamples1.PNG" style="height: 800px;"></center>
+<center><img src="https://raw.githubusercontent.com/queez0405/queez0405.github.io/master/_posts/lol_project/ofsamples1.PNG" style="width: 800px;"></center>
 
 위 그림은 이미지 데이터셋과 LoL 데이터셋의 Confidence 분포의 차이를 명확하게 보여준다. 이미지는 대부분의 test sample 들의 Confidence가 90% 이상이다. 반면 LoL 데이터셋은 Confidence가 고르게 분포되어 있다. 따라서 이를 고려하는 Calibration이 진행되어야 한다.
 
