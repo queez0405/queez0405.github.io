@@ -31,9 +31,7 @@ comments: true
 <!--
 <center><img src="https://raw.githubusercontent.com/queez0405/queez0405.github.io/master/_posts/lol_project/ofsamples1.PNG" width="500"></center>
 -->
-<figure class="half">
-    <a img src="https://raw.githubusercontent.com/queez0405/queez0405.github.io/master/_posts/lol_project/ofsamples1.PNG" width="500"></a>
-</figure>
+![Confidence Dist](https://raw.githubusercontent.com/queez0405/queez0405.github.io/master/_posts/lol_project/ofsamples1.PNG | width=600)
 
 위 그림은 이미지 데이터셋과 LoL 데이터셋의 Confidence 분포의 차이를 명확하게 보여준다. 이미지는 대부분의 test sample 들의 Confidence가 90% 이상이다. 반면 LoL 데이터셋은 Confidence가 고르게 분포되어 있다. 따라서 이를 고려하는 Calibration이 진행되어야 한다.
 
